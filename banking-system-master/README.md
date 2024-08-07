@@ -20,13 +20,14 @@ Balance Display After Each Transaction
 Monthly Interest Calculation with Celery Scheduled Tasks
 Transaction Amount Restrictions (Minimum and Maximum)
 Modern UI with Tailwind CSS
+
+
 Technologies Used
 
 Django: A high-level Python web framework.
 Celery: For asynchronous task management and scheduling.
 Redis: Used as a message broker for Celery.
 Tailwind CSS: For styling and modern UI design.
-How to Use
 
 
 
