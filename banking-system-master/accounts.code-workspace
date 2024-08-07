@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "accounts"
+		},
+		{
+			"path": "banking_system"
+		},
+		{
+			"path": "core"
+		},
+		{
+			"path": "templates"
+		},
+		{
+			"path": "transactions"
+		}
+	]
+}
