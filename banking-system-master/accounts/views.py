@@ -7,9 +7,7 @@ from django.views.generic import TemplateView, RedirectView
 
 from .forms import UserRegistrationForm, UserAddressForm
 
-
 User = get_user_model()
-
 
 class UserRegistrationView(TemplateView):
     model = User
@@ -37,7 +35,7 @@ class UserRegistrationView(TemplateView):
             messages.success(
                 self.request,
                 (
-                    f'Thank You For Creating A Bank Account. '
+                    f'Thank You For Creating An Account at NicK Mini Bank. '
                     f'Your Account Number is {user.account.account_no}. '
                 )
             )
